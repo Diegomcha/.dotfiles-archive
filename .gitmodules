@@ -1,0 +1,12 @@
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/David-Kunz/vim.git
+[submodule "zsh-autocomplete"]
+	path = zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete.git
+[submodule "packer.nvim"]
+	path = packer.nvim
+	url = https://github.com/wbthomason/packer.nvim
+[submodule "powerlevel10k"]
+	path = powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git

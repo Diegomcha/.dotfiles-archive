@@ -1,0 +1,10 @@
+[user]
+	name = Diego
+	email = 38155922+Diegomcha@users.noreply.github.com
+	signingkey = D051E23624564654
+[commit]
+  gpgsign = true
+[core]
+  editor = nvim
+[gpg]
+  program=gpg
