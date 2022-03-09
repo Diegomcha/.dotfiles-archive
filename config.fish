@@ -4,11 +4,11 @@ if status is-interactive
 
     # Replaces trash command to include clear subcommand
     function trash
-        switch $1
+        switch $argv[1]
             case --empty
                 trash-empty
             case '*'
-                command trash $1
+                command trash $argv
         end
     end
 
@@ -27,5 +27,6 @@ if status is-interactive
     if type -q -f batcat
         alias cat 'batcat --theme="OneHalfDark"'
     end
-end
 
+    set -gx GPG_TTY (tty)
+end
