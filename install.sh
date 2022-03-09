@@ -25,11 +25,8 @@ sudo pt update
 sudo pt install gh
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-nvm install --lts
 
 fish
-
-npm i -g pnpm
 
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher install IlanCosman/tide@v5
