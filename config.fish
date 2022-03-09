@@ -1,6 +1,7 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
-    # run-parts /etc/update-motd.d
+    if status is-login
+        neofetch
+    end
 
     # Replaces trash command to include clear subcommand
     function trash

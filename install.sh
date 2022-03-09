@@ -8,7 +8,7 @@ mkdir -p ~/.local/share/nvim/site/pack/packer/opt
 
 ln -s ~/.dotfiles/nvim ~/.config/nvim
 ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
-ln -s ~/.dotfiles/neofetch.conf ~/.config/fish/config.conf
+ln -s ~/.dotfiles/neofetch.conf ~/.config/neofetch/config.conf
 ln -s ~/.dotfiles/packer.nvim ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
@@ -30,3 +30,5 @@ fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/
 fish -c "fisher install IlanCosman/tide@v5"
 
 nvim -c PackerSync
+
+chsh -s /usr/bin/fish
