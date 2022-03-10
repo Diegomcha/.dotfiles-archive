@@ -24,10 +24,9 @@ sudo apt update
 sudo apt install fish bat trash-cli neovim neofetch gh ./exa.deb -y
 rm exa.deb
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-
 fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
 fish -c "fisher install IlanCosman/tide@v5"
+fish -c "fisher install jorgebucaran/nvm.fish"
 
 nvim -c PackerSync
 
